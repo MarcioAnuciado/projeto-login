@@ -1,0 +1,92 @@
+@charset "UTF-8'";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #5F2C82;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    text-align: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    height: 515px;
+
+}
+
+main h1 {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+main p {
+    padding: 0px 8px 0px 8px;
+    font-size: 0.9em;
+    text-align: left;
+    
+}
+
+
+img {
+    width: 260px;
+    height: 200px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.email {
+
+    padding: 2px 2px 2px 5px;
+    border-radius: 7px;
+    margin: 5px 5px 5px 5px;
+    background-color: #5F2C82;
+}
+
+.senha {
+    padding: 2px 2px 2px 5px;
+    border-radius: 7px;
+    margin: 5px 5px 0px 5px;
+    background-color: #5F2C82;
+}
+
+
+.info {
+    padding: 10px;
+    background-color: #94CFCD;
+    border: 0px;
+    border-radius: 7px;
+}
+
+.entrar {
+    font-size: 1em;
+    border: 0px;
+    background-color: #62b4b2;
+    padding: 12px 100px 12px 100px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 5px 15px 5px;
+}
+
+.entr:hover {
+    color: #507B94;
+}
+
+main a {
+    text-decoration: none;
+    color: #3e7473;
+    padding: 10px 63px 10px 63px;
+    border: 1px solid #62b4b2 ;
+    border-radius: 7px;    
+}
