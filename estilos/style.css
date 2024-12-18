@@ -27,6 +27,9 @@ main {
     height: 515px;
     width: 260px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 main h1 {
@@ -35,7 +38,6 @@ main h1 {
 }
 
 main p {
-    padding: 0px 8px 0px 8px;
     font-size: 0.9em;
     text-align: left;
     
@@ -43,6 +45,9 @@ main p {
 
 article {
     display: block;
+    padding: 10px;
+    width: 100%;
+
 }
 
 .imagen {
@@ -56,18 +61,10 @@ article {
     display: block;
 }
 
-.email {
-
+.login {
     padding: 2px 2px 2px 5px;
     border-radius: 7px;
-    margin: 5px 5px 5px 5px;
-    background-color: #5F2C82;
-}
-
-.senha {
-    padding: 2px 2px 2px 5px;
-    border-radius: 7px;
-    margin: 5px 5px 0px 5px;
+    margin-top: 5px;
     background-color: #5F2C82;
 }
 
@@ -80,23 +77,28 @@ article {
 }
 
 .entrar {
+    display: block;
     font-size: 1em;
     border: 0px;
     background-color: #62b4b2;
-    padding: 12px 100px 12px 100px;
     color: white;
     border-radius: 5px;
-    margin: 5px 5px 15px 5px;
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
 }
 
-.entr:hover {
-    color: #507B94;
+.entrar:hover {
+    background-color: #53AAA7;
 }
 
 main a {
+    display: block;
     text-decoration: none;
     color: #3e7473;
-    padding: 10px 63px 10px 63px;
+    margin-top: 5px;
     border: 1px solid #62b4b2 ;
-    border-radius: 7px;    
+    border-radius: 7px; 
+    width: 100%;
+    height: 40px; 
 }

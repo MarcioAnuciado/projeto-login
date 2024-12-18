@@ -18,24 +18,66 @@ grandes telas: acima de 1200px
     .imagen {
         border-radius: 20px 0px 0px 20px;
         width: 30%;
-        height: 30vh;
+        height: 100%;
         float: left;
-        background-attachment: fixed;
     }
 
     main {
-        height: 30vh;
+        height: 280px;
         width: 80vw;
     }
 
     article {
         float: right;
-        height: 30vh;
+        height: 100%;
         width: 70%;
     }
 
-    .entrar {
-        width: 98%;
+    .info {
+        padding-right: 200px;
     }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    html, body {
+        background-image: linear-gradient(to bottom, #5F2C82, #4B969A);
+    }
+
+    main {
+        width: 950px;
+        height: 350px;
+    }
+
+    main p {
+        margin: 20px 0px 20px 0px;
+        font-size: 1em;
+    }
+
+    main h1 {
+        font-size: 2em;
+    }
+
+    .imagen {
+        float: right;
+        border-radius: 0px 20px 20px 0px;
+        width: 50%;
+        height: 100%;
+    }
+
+    article {
+        padding: 10px;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    .login {
+        width: 100%;
+    }
+
+
+    
 
 }
