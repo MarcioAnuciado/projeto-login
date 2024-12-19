@@ -18,29 +18,28 @@ main {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
 
     text-align: center;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     height: 515px;
-    width: 260px;
+    width: 250px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
 
+    transform: translate(-50%, -50%);
     transition: width 0.3s, heigth 0.3s;
     transition-timing-function: ease;
 }
 
 main h1 {
-    margin: 10px;
+    margin: 0px 0px 10px 0px;
     font-size: 1.5em;
 }
 
 main p {
-    font-size: 0.9em;
     text-align: left;
-    
+    font-size: 0.79em;
+    line-height: 1.3em;
 }
 
 article {
@@ -51,7 +50,7 @@ article {
 }
 
 .imagen {
-    width: 260px;
+    width: 250px;
     height: 200px;
     border-radius: 20px 20px 0px 0px;
     background-image: url(../imagens/pexels-klajdi-cena-308722718-14812289.jpg);
@@ -62,23 +61,26 @@ article {
 }
 
 .login {
-    padding: 2px 2px 2px 5px;
-    border-radius: 7px;
-    margin-top: 5px;
     background-color: #5F2C82;
+    display: block;
+    margin-top: 5px;
+    border-radius: 8px;
 }
 
 
 .info {
-    padding: 10px;
     background-color: #94CFCD;
+    border-radius: 8px;
     border: 0px;
-    border-radius: 7px;
+    padding: 13px 5px 5px 5px;
+    width: calc(100% - 50px);
+    font-size: 1em;
+    height: 100%;
 }
 
 .entrar {
     display: block;
-    font-size: 1em;
+    font-size: 0.97em;
     border: 0px;
     background-color: #62b4b2;
     color: white;
@@ -86,10 +88,11 @@ article {
     margin-top: 5px;
     width: 100%;
     padding: 10px 0px 10px 0px;
+    cursor: pointer;
 }
 
 .entrar:hover {
-    background-color: #53AAA7;
+    background-color: #2D6462;
 }
 
 main a {
@@ -97,8 +100,36 @@ main a {
     text-decoration: none;
     color: #3e7473;
     margin-top: 5px;
+    padding-top: 8px;
     border: 1px solid #62b4b2 ;
     border-radius: 7px; 
     width: 100%;
     height: 40px; 
+    text-align: center;
+}
+
+main a:hover {
+    background-color: #6CD3CF;
+}
+
+#email {
+    font-size: 0.8em;
+    padding-left: 3px;
+}
+
+
+#pessoa {
+    padding-bottom: 10px;
+    font-size: 1.9em;
+    color: white;
+    width: 40px;
+    transform: translate(-1px, 10px);
+}
+
+#vpnkey {
+    padding-bottom: 10px;
+    font-size: 1.9em;
+    color: white;
+    width: 40px;
+    transform: translate(-1px, 10px);
 }
